@@ -6,12 +6,12 @@ public class Diameter {
         int circleRadius;
         System.out.println("Enter radius");
         circleRadius = input.nextInt();
-        double circumference= 2 * Math.PI* circleRadius;
+        double circumference= 2 * Math.PI * circleRadius;
         int diameter= 2 * circleRadius;
         double area = Math.PI * (circleRadius * circleRadius) ;
-        System.out.println("circumference is " +circumference);
-        System.out.println("diameter is " +diameter);
-        System.out.println("area is " +area);
+        System.out.println("circumference is " + circumference);
+        System.out.println("diameter is " + diameter);
+        System.out.println("area is " + area);
 
 
 
